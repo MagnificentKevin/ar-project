@@ -17,3 +17,7 @@ model-viewer {
         width: 600px;
     }
 }
+html
+{
+    background: linear-gradient(#FFF 30%, #AAA 90%);
+}
