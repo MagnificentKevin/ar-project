@@ -1,24 +1,29 @@
 body {
     margin: 0px;
     background-color: rgb(29, 31, 32);
+    box-sizing: border-box;
 }
 model-viewer {
     border: 0px;
-    height: 720px;
-    width: 1000px;
+    height: 80%;
+    width: 100%;
 }
-.text {
+.title {
     color: white;
     font-family: arial;
     font-size: 20px;
     font-weight: 200;
 }
-@media (max-width: 620px) {
-    model-viewer {
-        height: 840px;
-        width: 400px;
-    }
+.container {
+    width: 100%;
 }
+/*
+@media (max-width: 620px){
+    model-viewer {
+        height: 670px;
+        width: 350px;
+    }
+}*/
 html
 {
     background: linear-gradient(#FFF 30%, #AAA 90%);
